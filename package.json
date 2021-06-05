@@ -1,0 +1,14 @@
+{
+  "name": "jamescoxhead.co.uk",
+  "version": "0.1.0",
+  "author": "James Coxhead",
+  "scripts": {
+    "build": "parcel build ./Source/index.html",
+    "dev": "parcel ./Source/index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
