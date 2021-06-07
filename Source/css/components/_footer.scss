@@ -1,0 +1,26 @@
+footer {
+    .social-links {
+        svg {
+            width: 25px;
+            height: 25px;
+        }
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        .bi-linkedin {
+            fill: #0077B5;
+        }
+
+        .bi-github {
+            fill: #24292e
+        }
+    }
+
+    .copyright {
+        margin-top: $spacer * 0.5;
+    }
+}
