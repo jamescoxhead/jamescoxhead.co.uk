@@ -1,0 +1,11 @@
+main {
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        @include font-size($lead-font-size * 1.35);
+        font-weight: $lead-font-weight;
+        text-align: center;
+    }
+}
