@@ -9,5 +9,5 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     X-Robots-Tag = "none"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' www.googletagmanager.com 'sha256-kO23GFhJEvHRnabeMqZWKNGYMJ2/T7RlVDD2ljQVmT8=' *.cloudfront.net; style-src 'self' fonts.googleapis.com; img-src 'self' *.cloudfront.net; font-src 'self' fonts.googleapis.com fonts.gstatic.com *.cloudfront.net; form-action 'self'; manifest-src 'self'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' www.googletagmanager.com 'sha256-kO23GFhJEvHRnabeMqZWKNGYMJ2/T7RlVDD2ljQVmT8=' 'sha256-IlTEBNrxmvLNiS3O+2R/XPyML6voIrIMe+l5aPESUT0=' *.cloudfront.net; style-src 'self' fonts.googleapis.com; img-src 'self' *.cloudfront.net; font-src 'self' fonts.googleapis.com fonts.gstatic.com *.cloudfront.net; form-action 'self'; manifest-src 'self'"
     Referrer-Policy = "strict-origin-when-cross-origin"
